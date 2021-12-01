@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "coverlet.collector/1.2.0": {
         "type": "package",
         "build": {
@@ -1313,7 +1313,7 @@
       },
       "devopswebapp/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
           "bin/placeholder/devopswebapp.dll": {}
         },
@@ -1517,6 +1517,7 @@
       "path": "microsoft.csharp/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2070,8 +2071,7 @@
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
-        "Newtonsoft.Json.9.0.1.nupkg.sha512",
-        "Newtonsoft.Json.nuspec",
+        ".signature.p7s",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -2086,6 +2086,8 @@
         "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.9.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
         "tools/install.ps1"
       ]
     },
@@ -2445,6 +2447,7 @@
       "path": "system.dynamic.runtime/4.0.11",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3746,6 +3749,7 @@
       "path": "system.runtime.serialization.primitives/4.1.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4485,7 +4489,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "Microsoft.AspNetCore.TestHost >= 2.2.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "coverlet.collector >= 1.2.0",
@@ -4495,37 +4499,43 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Charles\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\nages\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\DOProjects\\devops-webapp-solution\\devops-webapp\\devopswebapp.Tests\\devopswebapp.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\nages\\Documents\\Training\\DevOps\\app1\\devops-webapp\\devopswebapp.Tests\\devopswebapp.Tests.csproj",
       "projectName": "devopswebapp.Tests",
-      "projectPath": "f:\\DOProjects\\devops-webapp-solution\\devops-webapp\\devopswebapp.Tests\\devopswebapp.Tests.csproj",
-      "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-      "outputPath": "f:\\DOProjects\\devops-webapp-solution\\devops-webapp\\devopswebapp.Tests\\obj\\",
+      "projectPath": "C:\\Users\\nages\\Documents\\Training\\DevOps\\app1\\devops-webapp\\devopswebapp.Tests\\devopswebapp.Tests.csproj",
+      "packagesPath": "C:\\Users\\nages\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nages\\Documents\\Training\\DevOps\\app1\\devops-webapp\\devopswebapp.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\nages\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\nages\\Documents\\Training\\CSharp\\Microservices\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
-            "f:\\DOProjects\\devops-webapp-solution\\devops-webapp\\devopswebapp\\devopswebapp.csproj": {
-              "projectPath": "f:\\DOProjects\\devops-webapp-solution\\devops-webapp\\devopswebapp\\devopswebapp.csproj"
+            "C:\\Users\\nages\\Documents\\Training\\DevOps\\app1\\devops-webapp\\devopswebapp\\devopswebapp.csproj": {
+              "projectPath": "C:\\Users\\nages\\Documents\\Training\\DevOps\\app1\\devops-webapp\\devopswebapp\\devopswebapp.csproj"
             }
           }
         }
@@ -4537,7 +4547,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.AspNetCore.TestHost": {
             "target": "Package",
@@ -4575,7 +4586,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

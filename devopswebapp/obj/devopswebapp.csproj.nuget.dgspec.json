@@ -1,34 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "f:\\DOProjects\\devops-webapp-solution\\devops-webapp\\devopswebapp\\devopswebapp.csproj": {}
+    "C:\\Users\\nages\\Documents\\Training\\DevOps\\app1\\devops-webapp\\devopswebapp\\devopswebapp.csproj": {}
   },
   "projects": {
-    "f:\\DOProjects\\devops-webapp-solution\\devops-webapp\\devopswebapp\\devopswebapp.csproj": {
+    "C:\\Users\\nages\\Documents\\Training\\DevOps\\app1\\devops-webapp\\devopswebapp\\devopswebapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\DOProjects\\devops-webapp-solution\\devops-webapp\\devopswebapp\\devopswebapp.csproj",
+        "projectUniqueName": "C:\\Users\\nages\\Documents\\Training\\DevOps\\app1\\devops-webapp\\devopswebapp\\devopswebapp.csproj",
         "projectName": "devopswebapp",
-        "projectPath": "f:\\DOProjects\\devops-webapp-solution\\devops-webapp\\devopswebapp\\devopswebapp.csproj",
-        "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-        "outputPath": "f:\\DOProjects\\devops-webapp-solution\\devops-webapp\\devopswebapp\\obj\\",
+        "projectPath": "C:\\Users\\nages\\Documents\\Training\\DevOps\\app1\\devops-webapp\\devopswebapp\\devopswebapp.csproj",
+        "packagesPath": "C:\\Users\\nages\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nages\\Documents\\Training\\DevOps\\app1\\devops-webapp\\devopswebapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\nages\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\nages\\Documents\\Training\\CSharp\\Microservices\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -39,7 +44,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
